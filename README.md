@@ -63,7 +63,7 @@ psql -U postgres -h 127.0.0.1 < /sql/create_db.sql
 # restaure o banco 
 pg_restore -U postgres -d geopb_db --if-exists --clean /backup/TCEPB_geopb_export.backup
 
-# agora saia do container
+# agora saia do container (ctrl+d)
 ```
 5. Verifique se a restauração funcionou recuperando as tabelas presente no banco.
 
