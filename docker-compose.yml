@@ -1,0 +1,28 @@
+version: '3.5'
+
+services:
+  postgres-geopb:
+    image: postgres:11.1-alpine
+    container_name: postgres-geopb
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=secret123456
+      - TZ=GMT
+      # coloque isso em um .env, caso necessário (:
+    volumes:
+      - geopb_data:/var/lib/postgresql/data/
+      - ./data:/backup
+      - ./sql:/sql
+      #- /mnt/postgres:/var/lib/postgresql/data/ caso queria definir um local onde ficarão dos dados do banco
+    ports:
+      - 7658:5432
+    networks:
+      - proxynet
+
+networks:
+  proxynet:
+    name: geopb_network
+
+volumes:
+  geopb_data:
