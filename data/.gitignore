@@ -2,3 +2,7 @@
 *
 # exceto o .gitignore
 !.gitignore
+!tipo_obra.csv
+!tipo_execucao.csv
+!tipo_situacao.csv
+!tipo_andamento.csv

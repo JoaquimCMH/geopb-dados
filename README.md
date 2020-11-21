@@ -105,6 +105,8 @@ obras <- dplyr::tbl(db_con, sql('SELECT * FROM t_obra')) %>% dplyr::collect(n = 
 sudo make stop
 ```
 
+Existem alguns arquivos adicionais na pasta *data* que, por algum motivo, não foram disponibilizados pela equipe do TCE-PB.
+
 
 ## ⛏️ Ferramentas <a name = "built_using"></a>
 
