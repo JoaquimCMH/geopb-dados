@@ -1,38 +1,38 @@
-tipo_obra,nome,tipo,unidadeMedida,pinType,superTipo
-1,ABASTECIMENTO DE ÁGUA,Polygon,Unidade(s),abastecimento_agua_,HÍDRICAS E SANITÁRIAS
-2,AÇUDE BARRAGEM,Point,Volume Armazenado (m3),acude_barragem_,HÍDRICAS E SANITÁRIAS
-3,BUEIRO,Point,-,-,HÍDRICAS E SANITÁRIAS
-4,PRONTO SOCORRO,Point,Área Construída (m2),pronto_socorro_,SAÚDE
-5,CRECHE,Point,Área Construída (m2),creche_,EDUCAÇÃO
-6,ELETRIFICAÇÃO,Polygon,Extensão (km),eletrificacao_,INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
-7,ESCOLA,Point,Área Construída (m2),escola_,EDUCAÇÃO
-8,ESTRADA DE TERRA,Polygon,Extensão (km),estrada_terra_,TRANSPORTE E MOBILIDADE
-9,GALERIA PLUVIAL,Polygon,Comprimento (m),galeria_pluvial_,HÍDRICAS E SANITÁRIAS
-10,GINÁSIO POLIESPORTIVO / QUADRA DE ESPORTES,Point,Área Construída (m2),ginasio_poliesportivo_quadra_esporte_,EDUCAÇÃO
-11,HOSPITAL,Point,Área Construída (m2),hospital_,SAÚDE
-12,MERCADO PÚBLICO / ABATEDOURO,Point,Área Construída (m2),mercado_publico_abatedouro_,INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
-13,PASSAGEM MOLHADA,BOTH,Área Construída (m2),passagem_molhada_,TRANSPORTE E MOBILIDADE
-14,PAVIMENTAÇÃO ASFALTO,Polygon,Área Construída (m2),pavimentacao_asfalto_,TRANSPORTE E MOBILIDADE
-15,PAVIMENTAÇÃO PARALELEPÍPEDO,Polygon,Área Construída (m2),pavimentacao_paralepipedo_,TRANSPORTE E MOBILIDADE
-16,POÇO AMAZONAS,BOTH,Profundidade (m),poco_amazonas_,HÍDRICAS E SANITÁRIAS
-17,POÇO ARTESIANO,BOTH,Profundidade (m),poco_artesiano_,HÍDRICAS E SANITÁRIAS
-18,PONTE,Point,Área Construída (m2),ponte_,TRANSPORTE E MOBILIDADE
-19,POSTO DE SAÚDE,Point,Área Construída (m2),posto_saude_,SAÚDE
-20,PRAÇA,Point,Área Construída (m2),praca_,INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
-21,PRESÍDIO,Point,Área Construída (m2),presidio_,INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
-22,REDE COLETORA DE ESGOTO,Point,Quantidade de Ligações,saneamento_basico_,HÍDRICAS E SANITÁRIAS
-23,UNIDADE HABITACIONAL,Point,Unidade(s),unidade_habitacional_,HABITAÇÃO
-24,OUTRAS,Point,-,-,OUTRAS
-25,AEROPORTO,Point,Área do Projeto (m2),aeroporto_,TRANSPORTE E MOBILIDADE
-26,ADUTORA,Point,Extensão (km),adutora_,HÍDRICAS E SANITÁRIAS
-27,ATERRO SANITÁRIO,Point,Área do Projeto (m2),aterro_sanitario_,INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
-28,CAIXA D'ÁGUA,Point,Volume Armazenado (m3),caixa_agua_,HÍDRICAS E SANITÁRIAS
-29,CISTERNA,BOTH,Unidade(s),cisterna_,HÍDRICAS E SANITÁRIAS
-30,CANAL,Polygon,Extensão (km),acude_barragem_,HÍDRICAS E SANITÁRIAS
-31,MÓDULO SANITÁRIO,BOTH,Unidade(s),modulo_sanitario_,HABITAÇÃO
-32,MURO DE CONTENÇÃO DE ATERROS,Point,Volume da Parede (m3),muro_contencao_aterro_,INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
-33,PASSARELA,Point,Comprimento (m),passarela_,TRANSPORTE E MOBILIDADE
-34,POÇO TUBULAR,BOTH,Profundidade (m),poco_tubular_,HÍDRICAS E SANITÁRIAS
-35,VIADUTO,Point,Área Construída (m2),viaduto_,TRANSPORTE E MOBILIDADE
-36,PSF,Point,Área Construída (m2),psf_,SAÚDE
-37,SERVIÇO DE LIMPEZA E COLETA DE RESÍDUS SÓLIDOS,Polygon,Extensão Percorrida (km),servico_limpeza_,INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
+id_tipo_obra,descricao_tipo,tipo,unidade_medida,descricao_super_tipo
+1,ABASTECIMENTO DE ÁGUA,Polygon,Unidade(s),HÍDRICAS E SANITÁRIAS
+2,AÇUDE BARRAGEM,Point,Volume Armazenado (m3),HÍDRICAS E SANITÁRIAS
+3,BUEIRO,Point,-,HÍDRICAS E SANITÁRIAS
+4,PRONTO SOCORRO,Point,Área Construída (m2),SAÚDE
+5,CRECHE,Point,Área Construída (m2),EDUCAÇÃO
+6,ELETRIFICAÇÃO,Polygon,Extensão (km),INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
+7,ESCOLA,Point,Área Construída (m2),EDUCAÇÃO
+8,ESTRADA DE TERRA,Polygon,Extensão (km),TRANSPORTE E MOBILIDADE
+9,GALERIA PLUVIAL,Polygon,Comprimento (m),HÍDRICAS E SANITÁRIAS
+10,GINÁSIO POLIESPORTIVO / QUADRA DE ESPORTES,Point,Área Construída (m2),EDUCAÇÃO
+11,HOSPITAL,Point,Área Construída (m2),SAÚDE
+12,MERCADO PÚBLICO / ABATEDOURO,Point,Área Construída (m2),INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
+13,PASSAGEM MOLHADA,BOTH,Área Construída (m2),TRANSPORTE E MOBILIDADE
+14,PAVIMENTAÇÃO ASFALTO,Polygon,Área Construída (m2),TRANSPORTE E MOBILIDADE
+15,PAVIMENTAÇÃO PARALELEPÍPEDO,Polygon,Área Construída (m2),TRANSPORTE E MOBILIDADE
+16,POÇO AMAZONAS,BOTH,Profundidade (m),HÍDRICAS E SANITÁRIAS
+17,POÇO ARTESIANO,BOTH,Profundidade (m),HÍDRICAS E SANITÁRIAS
+18,PONTE,Point,Área Construída (m2),TRANSPORTE E MOBILIDADE
+19,POSTO DE SAÚDE,Point,Área Construída (m2),SAÚDE
+20,PRAÇA,Point,Área Construída (m2),INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
+21,PRESÍDIO,Point,Área Construída (m2),INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
+22,REDE COLETORA DE ESGOTO,Point,Quantidade de Ligações,HÍDRICAS E SANITÁRIAS
+23,UNIDADE HABITACIONAL,Point,Unidade(s),HABITAÇÃO
+24,OUTRAS,Point,-,OUTRAS
+25,AEROPORTO,Point,Área do Projeto (m2),TRANSPORTE E MOBILIDADE
+26,ADUTORA,Point,Extensão (km),HÍDRICAS E SANITÁRIAS
+27,ATERRO SANITÁRIO,Point,Área do Projeto (m2),INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
+28,CAIXA D'ÁGUA,Point,Volume Armazenado (m3),HÍDRICAS E SANITÁRIAS
+29,CISTERNA,BOTH,Unidade(s),HÍDRICAS E SANITÁRIAS
+30,CANAL,Polygon,Extensão (km),HÍDRICAS E SANITÁRIAS
+31,MÓDULO SANITÁRIO,BOTH,Unidade(s),HABITAÇÃO
+32,MURO DE CONTENÇÃO DE ATERROS,Point,Volume da Parede (m3),INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS
+33,PASSARELA,Point,Comprimento (m),TRANSPORTE E MOBILIDADE
+34,POÇO TUBULAR,BOTH,Profundidade (m),HÍDRICAS E SANITÁRIAS
+35,VIADUTO,Point,Área Construída (m2),TRANSPORTE E MOBILIDADE
+36,PSF,Point,Área Construída (m2),SAÚDE
+37,SERVIÇO DE LIMPEZA E COLETA DE RESÍDUS SÓLIDOS,Polygon,Extensão Percorrida (km),INFRAESTRUTURA/EQUIPAMENTOS PÚBLICOS

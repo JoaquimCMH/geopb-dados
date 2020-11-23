@@ -1,4 +1,4 @@
-tipo_situacao,descricao_situacao
+id_tipo_situacao,descricao_situacao
 1,Em Execução Normal (Dentro do Cronograma)
 2,Atrasada (Cronograma Atrasado)
 3,Paralisada (Sem Execução)
