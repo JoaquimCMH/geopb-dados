@@ -1,4 +1,4 @@
-tipo_andamento,descricao_andamento
+id_tipo_andamento,descricao_andamento
 1,Em Execução Normal (Dentro do Cronograma)
 2,Atrasada (Cronograma Atrasado)
 3,Paralisada (Sem Execução)
